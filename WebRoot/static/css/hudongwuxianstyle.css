@@ -1,0 +1,188 @@
+* {
+    font-family: "微软雅黑";
+
+}
+
+label {
+    font-weight: 500;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+#page-wrapper{
+    min-height: 0;
+}
+.clear-padding {
+    padding: 0;
+}
+.clear-margin{
+    margin:0;
+}
+.top {
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.name {
+    font-size: 28px;
+}
+
+.word-white {
+    color: white;
+}
+
+.hdwx-bg {
+    background: #2f3541;
+}
+
+.hdwx-color {
+    background: #00cb66;
+}
+
+.bottom-white {
+    border-bottom: 1px solid white;;
+}
+
+.word-sm {
+    font-size: 13px;
+}
+
+.icon-btn {
+    top: -10px;
+}
+
+.icon-btn:hover {
+    color: green;
+}
+
+.icon {
+    top: -33px;
+    left: -10px;
+}
+
+.pointer:hover {
+    cursor: pointer;;
+}
+
+.active-menu, .active-menu i {
+    background-color: #00cb66 !important;
+    color: white !important;
+}
+
+ul.nav li:hover {
+    cursor: pointer;
+}
+
+.attach-left:before {
+    content: "";
+    width: 2px;
+    display: inline-block;
+    height: 10px;
+    background-color: white;
+    position: relative;
+    left: -3px;
+    top: 1px;
+}
+
+.attach-top {
+    position: relative;
+    top: -20px;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width:618px;
+}
+
+.hdwx-input-lg {
+    width: 500px;
+}
+.hdwx-input-sm{
+    width:300px;
+}
+
+.content-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px #a5a5a5;
+    background: white;
+}
+.item{
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px #a5a5a5;
+    background: white;
+    padding:10px 10px 10px 10px;
+}
+.title{
+    font-size:32px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-left:10px;
+}
+.oprater-div{
+    width:20%;
+    height:120px;
+    margin:10px 10px 10px 10px;
+    line-height: 130px;
+    text-align: center;
+    color:white;
+    font-size:16px;
+    border-radius: 3px;
+    position:relative;
+}
+.oprater-div:hover{
+    box-shadow:10px 10px 20px #dedede;
+    cursor: pointer;
+}
+.bggreen{
+    background: #449c44;
+}
+.bgred{
+    background: #fc3366;
+}
+.bgorange{
+    background: #fd9002;
+}
+.bgblue{
+    background: #0098cb;
+}
+#page-wrapper{
+    top:0;
+}
+#page-inner{
+    margin:0;
+}
+.far-top{
+    margin-top:10px;
+}
+.far-away-top{
+    margin-top:50px;
+}
+.tag{
+    margin-left:40px;
+    float:left;
+}
+.progress{
+    height:40px;
+}
+.progress-bar{
+    line-height: 40px;
+    font-size:16px;
+}
+.input-group-time{
+    width:300px;
+}
+td,th:hover{
+    cursor: pointer;
+}
+td,th{
+    text-align: center;
+}
