@@ -1,4 +1,4 @@
-﻿package com.hudongwuxian.common;
+package com.hudongwuxian.common;
 
 import com.hudongwuxian.controller.index.IndexController;
 import com.hudongwuxian.controller.student.Student;
@@ -51,9 +51,9 @@ public class MainConfig extends JFinalConfig {
 	 */
 	@Override
 	public void configRoute(Routes me) {
-		me.add("/User",UserController.class);
+		me.add("/User",UserController.class,"/User");
+		me.add("/user",UserController.class,"/User");
 		me.add("/index",IndexController.class);
-		
 	}
 	/**
 	 * 配置JFinal插件

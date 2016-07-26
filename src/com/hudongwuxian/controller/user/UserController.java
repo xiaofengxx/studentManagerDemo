@@ -1,8 +1,6 @@
 package com.hudongwuxian.controller.user;
 
 import com.hudongwuxian.common.BaseController;
-import com.jfinal.core.Controller;
-import com.jfinal.kit.StrKit;
 
 public class UserController extends BaseController{
 	public void index(){
