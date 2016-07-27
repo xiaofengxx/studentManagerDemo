@@ -7,6 +7,9 @@ $(document).ready(function(){
 function addUser(){
     loadWraper("User/addUser");
 }
+function logout() {
+    loadWraper("user/logout");
+}
 function index(){
     loadWraper("index/indexPage");
 }
