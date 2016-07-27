@@ -21,7 +21,7 @@
                 <br>
                 <div class="center-block attach-top">
                     <label class="word-white pointer word-sm" href="index">基本信息</label>
-                    <label class="word-white pointer word-sm attach-left">注销</label>
+                    <label class="word-white pointer word-sm attach-left" onclick="logout()">注销</label>
                 </div>
             </div>
         </div>

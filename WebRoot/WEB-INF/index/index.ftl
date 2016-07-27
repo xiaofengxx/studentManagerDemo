@@ -76,6 +76,9 @@
                         <td>
                             dadwadwdw
                         </td>
+                        <td>
+                            dadwadwdw
+                        </td>
                     </tr>
                 </table>
             </div>

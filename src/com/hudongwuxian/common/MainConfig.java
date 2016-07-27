@@ -1,5 +1,6 @@
 package com.hudongwuxian.common;
 
+import com.hudongwuxian.Interceptor.LoginInterceptor;
 import com.hudongwuxian.controller.index.IndexController;
 import com.hudongwuxian.controller.student.Student;
 import com.hudongwuxian.controller.user.User;
@@ -12,12 +13,10 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.core.JFinal;
-import com.jfinal.ext.handler.ContextPathHandler;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.activerecord.dialect.MysqlDialect;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
-import com.jfinal.render.ViewType;
 
 public class MainConfig extends JFinalConfig {
 	/**
@@ -83,6 +82,7 @@ public class MainConfig extends JFinalConfig {
 	 */
 	@Override
 	public void configInterceptor(Interceptors me) {
+	    me.add(new LoginInterceptor());
 	}
 	/**
 	 * 配置全局处理器
