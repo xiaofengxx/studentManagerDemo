@@ -1,6 +1,5 @@
-package com.hudongwuxian.common;
+﻿package com.hudongwuxian.common;
 
-import com.hudongwuxian.Interceptor.LoginInterceptor;
 import com.hudongwuxian.controller.index.IndexController;
 import com.hudongwuxian.controller.student.Student;
 import com.hudongwuxian.controller.user.User;
@@ -13,10 +12,12 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.core.JFinal;
+import com.jfinal.ext.handler.ContextPathHandler;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.activerecord.dialect.MysqlDialect;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
+import com.jfinal.render.ViewType;
 
 public class MainConfig extends JFinalConfig {
 	/**
@@ -40,6 +41,10 @@ public class MainConfig extends JFinalConfig {
 		//me.setError404View("404.html");
 		me.setBaseViewPath("WEB-INF");
 		me.setReportAfterInvocation(true);
+		
+		me.setViewType(ViewType.FREE_MARKER);
+		
+		
 		//配置权限属性地址 不配置默认为permissions
 		BuildPermission.setPath(PropKit.get("permissionPath"));
 		//构建权限
@@ -50,9 +55,9 @@ public class MainConfig extends JFinalConfig {
 	 */
 	@Override
 	public void configRoute(Routes me) {
-		me.add("/User",UserController.class,"/User");
-		me.add("/user",UserController.class,"/User");
+		me.add("/User",UserController.class);
 		me.add("/index",IndexController.class);
+		
 	}
 	/**
 	 * 配置JFinal插件
@@ -82,7 +87,6 @@ public class MainConfig extends JFinalConfig {
 	 */
 	@Override
 	public void configInterceptor(Interceptors me) {
-	    me.add(new LoginInterceptor());
 	}
 	/**
 	 * 配置全局处理器

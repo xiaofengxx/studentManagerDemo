@@ -44,7 +44,7 @@
                             <a onclick="addUser()">添加用户</a>
                         </li>
                         <li>
-                            <a href="">添加用户组</a>
+                            <a onclick="addUserGroup()">添加用户组</a>
                         </li>
                     </ul>
                 </li>
