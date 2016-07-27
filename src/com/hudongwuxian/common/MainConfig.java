@@ -41,6 +41,10 @@ public class MainConfig extends JFinalConfig {
 		//me.setError404View("404.html");
 		me.setBaseViewPath("WEB-INF");
 		me.setReportAfterInvocation(true);
+		
+		me.setViewType(ViewType.FREE_MARKER);
+		
+		
 		//配置权限属性地址 不配置默认为permissions
 		BuildPermission.setPath(PropKit.get("permissionPath"));
 		//构建权限

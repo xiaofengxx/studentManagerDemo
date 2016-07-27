@@ -23,4 +23,7 @@ public class UserController extends BaseController{
 	public void addUser(){
 		render("addUser.ftl");
 	}
+	public void addUserGroup(){
+		render("addUserGroup.ftl");
+	}
 }
