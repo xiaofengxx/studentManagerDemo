@@ -1,8 +1,11 @@
 package com.hudongwuxian.controller.user;
 
+import com.hudongwuxian.Interceptor.PjaxIntercepter;
 import com.hudongwuxian.common.BaseController;
+import com.jfinal.aop.Before;
 import com.jfinal.aop.Clear;
 
+@Before(PjaxIntercepter.class)
 public class UserController extends BaseController{
 
 	@Clear
@@ -32,6 +35,10 @@ public class UserController extends BaseController{
 	public void addUserGroup(){
 		render("addUserGroup.ftl");
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> refs/remotes/Userwu/master
 	public void addUserSubmit(){
 		String account = getPara("account","1");
 		String password = getPara("password");

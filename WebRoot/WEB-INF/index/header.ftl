@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="/static/css/custom-styles.css">
 
     <link rel="stylesheet" href="/static/css/hudongwuxianstyle.css">
+
+    <script type="text/javascript" src="/static/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/hudongwuxian.js" charset="UTF-8"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="/static/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="/static/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+
+    <!-- Metis Menu Js -->
+    <script src="/static/js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="/static/js/raphael-2.1.0.min.js"></script>
+    <script src="/static/js/morris.js"></script>
+
+
+
+    <script src="/static/js/easypiechart.js"></script>
+
+
+    <script src="/static/js/jquery.chart.js"></script>
+
+    <!-- Custom Js -->
+    <script src="/static/js/custom-scripts.js"></script>
+
+
+    <!-- Chart Js -->
+    <script type="text/javascript" src="/static/js/jquery.chart.min.js"></script>
+    <script type="text/javascript" src="/static/js/chartjs.js"></script>
+
+    <script type="text/javascript" src="/static/js/jquery.pjax.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -28,7 +60,7 @@
         <div class="sidebar-collapse relative">
             <ul class="nav" id="main-menu">
                 <li>
-                    <a class="active-menu" onclick="index()">
+                    <a class="active-menu" href="/">
                         <i class="glyphicon glyphicon-home"></i>
                         首页
                     </a>
@@ -41,45 +73,45 @@
                     <span class="glyphicon glyphicon-menu-down pull-right icon word-white"></span>
                     <ul class="nav nav-second-level collapse" aria-expanded="false" style="">
                         <li>
-                            <a onclick="addUser()">添加用户</a>
+                            <a href="/User/addUser">添加用户</a>
                         </li>
                         <li>
-                            <a onclick="addUserGroup()">添加用户组</a>
+                            <a href="/User/addUserGroup">添加用户组</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="index">
+                    <a href="/index">
                         <i class="glyphicon glyphicon-education"></i>
                         学生管理
                     </a>
                 </li>
                 <li>
-                    <a href="index">
+                    <a href="/index">
                         <i class="glyphicon glyphicon-yen"></i>
                         还款管理
                     </a>
                 </li>
                 <li>
-                    <a href="index">
+                    <a href="/index">
                         <i class="glyphicon glyphicon-blackboard"></i>
                         出勤管理
                     </a>
                 </li>
                 <li>
-                    <a href="index">
+                    <a href="/index">
                         <i class="glyphicon glyphicon-book"></i>
                         证书管理
                     </a>
                 </li>
                 <li>
-                    <a href="index">
+                    <a href="/index">
                         <i class="glyphicon glyphicon-cog"></i>
                         通用设置
                     </a>
                 </li>
                 <li>
-                    <a href="index">
+                    <a href="/Student/enrollStudent">
                         <i class="glyphicon glyphicon-pencil"></i>
                         报名学生
                     </a>
@@ -89,12 +121,9 @@
 
     </nav>
     <div id="page-wrapper">
-        <div id="hudongwuxian"></div>
-	</div>
-<script type="text/javascript" src="/static/js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="/static/js/hudongwuxian.js" charset="UTF-8"></script>
+        <div id="hudongwuxian">
 
-<!-- Bootstrap Js -->
-<script src="/static/js/bootstrap.min.js"></script>
+        </div>
+	</div>
 </body>
 </html>
