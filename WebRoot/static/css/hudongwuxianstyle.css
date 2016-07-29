@@ -10,15 +10,19 @@ label {
 body {
     background-color: #f1f1f1;
 }
-#page-wrapper{
+
+#page-wrapper {
     min-height: 0;
 }
+
 .clear-padding {
     padding: 0;
 }
-.clear-margin{
-    margin:0;
+
+.clear-margin {
+    margin: 0;
 }
+
 .top {
     position: fixed;
     top: 0;
@@ -99,14 +103,15 @@ ul.nav li:hover {
 .content {
     padding-left: 10px;
     padding-right: 10px;
-    min-width:618px;
+    min-width: 618px;
 }
 
 .hdwx-input-lg {
     width: 500px;
 }
-.hdwx-input-sm{
-    width:300px;
+
+.hdwx-input-sm {
+    width: 300px;
 }
 
 .content-top {
@@ -116,73 +121,122 @@ ul.nav li:hover {
     box-shadow: 0px 5px 5px #a5a5a5;
     background: white;
 }
-.item{
+
+.item {
     margin-bottom: 20px;
     box-shadow: 0px 5px 5px #a5a5a5;
     background: white;
-    padding:10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
-.title{
-    font-size:32px;
+
+.title {
+    font-size: 32px;
     border-bottom: 1px solid #e8e8e8;
-    margin-left:10px;
+    margin-left: 10px;
 }
-.oprater-div{
-    width:20%;
-    height:120px;
-    margin:10px 10px 10px 10px;
+
+.oprater-div {
+    width: 20%;
+    height: 120px;
+    margin: 10px 10px 10px 10px;
     line-height: 130px;
     text-align: center;
-    color:white;
-    font-size:16px;
+    color: white;
+    font-size: 16px;
     border-radius: 3px;
-    position:relative;
+    position: relative;
 }
-.oprater-div:hover{
-    box-shadow:10px 10px 20px #dedede;
+
+.oprater-div:hover {
+    box-shadow: 10px 10px 20px #dedede;
     cursor: pointer;
 }
-.bggreen{
+
+.bggreen {
     background: #449c44;
 }
-.bgred{
+
+.bgred {
     background: #fc3366;
 }
-.bgorange{
+
+.bgorange {
     background: #fd9002;
 }
-.bgblue{
+
+.bgblue {
     background: #0098cb;
 }
-#page-wrapper{
-    top:0;
+
+#page-wrapper {
+    top: 0;
 }
-#page-inner{
-    margin:0;
+
+#page-inner {
+    margin: 0;
 }
-.far-top{
-    margin-top:10px;
+
+.far-top {
+    margin-top: 10px;
 }
-.far-away-top{
-    margin-top:50px;
+
+.far-away-top {
+    margin-top: 50px;
 }
-.tag{
-    margin-left:40px;
-    float:left;
+
+.tag {
+    margin-left: 40px;
+    float: left;
 }
-.progress{
-    height:40px;
+
+.progress {
+    height: 40px;
 }
-.progress-bar{
+
+.progress-bar {
     line-height: 40px;
-    font-size:16px;
+    font-size: 16px;
 }
-.input-group-time{
-    width:300px;
+
+.input-group-time {
+    width: 300px;
 }
-td,th:hover{
+
+td, th:hover {
     cursor: pointer;
 }
-td,th{
+
+td, th {
     text-align: center;
+}
+
+.myhk_pjax_loading_frame  {
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    display: none;
+    z-index: 999999;
+    width: 124px;
+    height: 124px;
+    background: url('../images/loading.gif') 50% 50% no-repeat;
+}
+
+.myhk_pjax_loading  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #4c4c4c;
+    opacity: .2;
+}
+.progress-loading{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height:2px;
+    z-index:999999;
+    width:100%;
 }

@@ -85,9 +85,6 @@ position: fixed;
 #page-wrapper {
   position: relative;
   top: 55px;
-  box-shadow: 0 0 10px #757575;
-  -moz-box-shadow: 0 0 10px #757575;
-  -webkit-box-shadow: 0 0 10px #757575;
 }
 .top-navbar .nav > li > a:hover, .top-navbar .nav > li > a:focus {text-decoration: none;background-color: #4D4D4D;color: #fff;}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {background-color: #656565;border-color: #F36A5A;color: #fff !important;}

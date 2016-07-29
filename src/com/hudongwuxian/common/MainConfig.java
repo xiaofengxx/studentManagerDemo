@@ -2,6 +2,7 @@
 
 import com.hudongwuxian.controller.index.IndexController;
 import com.hudongwuxian.controller.student.Student;
+import com.hudongwuxian.controller.student.StudentController;
 import com.hudongwuxian.controller.user.User;
 import com.hudongwuxian.controller.user.UserController;
 import com.hudongwuxian.utils.BuildPermission;
@@ -57,7 +58,8 @@ public class MainConfig extends JFinalConfig {
 	public void configRoute(Routes me) {
 		me.add("/User",UserController.class);
 		me.add("/index",IndexController.class);
-		
+		me.add("/",IndexController.class);
+		me.add("/Student",StudentController.class);
 	}
 	/**
 	 * 配置JFinal插件
