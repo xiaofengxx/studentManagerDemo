@@ -1,4 +1,4 @@
-﻿package com.hudongwuxian.common;
+package com.hudongwuxian.common;
 
 import com.hudongwuxian.controller.index.IndexController;
 import com.hudongwuxian.controller.student.Student;

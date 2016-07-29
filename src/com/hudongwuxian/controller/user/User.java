@@ -1,9 +1,10 @@
 package com.hudongwuxian.controller.user;
 
+import com.hudongwuxian.common.BaseModel;
 import com.jfinal.aop.Clear;
 import com.jfinal.plugin.activerecord.Model;
 
-public class User extends Model<User>{
+public class User extends BaseModel<User>{
 	public static User dao = new User();
 	public static User Login(String account,String password){
 		return dao.findFirst("select * from user where account = ? and password = ?",account,password);

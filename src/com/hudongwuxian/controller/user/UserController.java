@@ -29,11 +29,9 @@ public class UserController extends BaseController{
 	public void addUser(){
 		render("addUser.ftl");
 	}
-<<<<<<< HEAD
 	public void addUserGroup(){
 		render("addUserGroup.ftl");
 	}
-=======
 	public void addUserSubmit(){
 		String account = getPara("account","1");
 		String password = getPara("password");
@@ -43,6 +41,4 @@ public class UserController extends BaseController{
 		setAttr("state",state);
 		renderJson();
 	}
-
->>>>>>> origin/master
 }
