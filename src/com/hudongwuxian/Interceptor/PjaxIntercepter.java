@@ -16,6 +16,7 @@ public class PjaxIntercepter implements Interceptor{
 		String url = inv.getActionKey();
 		System.out.println("拦截器中 pjax="+con.getRequest().getHeader("X-PJAX"));
 		if(!PjaxUtil.isPjaxRequest(con.getRequest())){
+			System.out.println("准备进入indexController取得header url="+url);
 			con.setAttr("url", url);
 			con.forwardAction("/index");
 		}else{

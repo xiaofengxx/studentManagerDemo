@@ -86,7 +86,7 @@
         <div class="item clearfix">
             <span class="title">统计</span>
             <div class="row far-top clearfix">
-                <div class="col-md-4 clearfix pull-left"  id="charts">
+                <div class="col-md-4 clearfix pull-left" id="charts">
                     <div class="panel tag">
                         <div class="panel-body easypiechart-panel">
                             <h4 class="text-info">请假率</h4>
@@ -126,7 +126,8 @@
                             <div class="navbar-header">
                                     <span class="input-group-btn clearfix">
                                         <div class="btn-group pull-left">
-                                          <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown"
+                                          <button type="button" class="btn btn-default dropdown-toggle btn-lg"
+                                                  data-toggle="dropdown"
                                                   aria-haspopup="true"
                                                   aria-expanded="false">
                                             选择班级 <span class="caret"></span>
@@ -141,10 +142,14 @@
                                         </div>
                                         <div class="form-group pull-right">
                                             <label for="dtp_input2" class="col-md-12 control-label">Date Picking</label>
-                                            <div class="input-group date form_date col-md-12" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
-                                                <input class="form-control" size="16" type="text" value=""disabled>
-                                                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
-                                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                            <div class="input-group date form_date col-md-12" data-date=""
+                                                 data-date-format="dd MM yyyy" data-link-field="dtp_input2"
+                                                 data-link-format="yyyy-mm-dd">
+                                                <input class="form-control" size="16" type="text" value="" disabled>
+                                                <span class="input-group-addon"><span
+                                                        class="glyphicon glyphicon-remove"></span></span>
+                                                <span class="input-group-addon"><span
+                                                        class="glyphicon glyphicon-calendar"></span></span>
                                             </div>
                                             <input type="hidden" id="dtp_input2" value=""><br>
                                         </div>
@@ -185,11 +190,13 @@
     </div>
 </div>
 </div>
+<script type="text/javascript" src="/static/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="/static/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
 <script type="text/javascript">
     $('.form_date').datetimepicker({
-        language:  'fr',
+        language: 'fr',
         weekStart: 1,
-        todayBtn:  1,
+        todayBtn: 1,
         autoclose: 1,
         todayHighlight: 1,
         startView: 2,

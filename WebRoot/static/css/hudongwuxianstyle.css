@@ -240,3 +240,10 @@ td, th {
     z-index:999999;
     width:100%;
 }
+.big-img-none{
+    width:200px;
+    height:200px;
+    background: #ECECEC;
+    border:1px solid #4b8045;
+    display: block;
+}

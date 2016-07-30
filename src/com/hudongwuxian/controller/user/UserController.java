@@ -35,7 +35,9 @@ public class UserController extends BaseController{
 	public void addUserGroup(){
 		render("addUserGroup.ftl");
 	}
-	
+	public void option(){
+		render("option.ftl");
+	}
 	public void addUserSubmit(){
 		String account = getPara("account","1");
 		String password = getPara("password");

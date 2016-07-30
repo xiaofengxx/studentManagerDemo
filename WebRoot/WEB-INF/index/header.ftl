@@ -14,8 +14,7 @@
     <!-- Bootstrap Js -->
     <script src="/static/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="/static/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
-    <script type="text/javascript" src="/static/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+
 
     <!-- Metis Menu Js -->
     <script src="/static/js/jquery.metisMenu.js"></script>
@@ -23,7 +22,14 @@
     <script src="/static/js/raphael-2.1.0.min.js"></script>
     <script src="/static/js/morris.js"></script>
 
-
+    <script type="text/javascript">
+        $(function(){
+            $.pjax({
+                url:"${url!}",
+                container:"#hudongwuxian"
+            })
+        })
+    </script>
 
     <script src="/static/js/easypiechart.js"></script>
 
@@ -93,7 +99,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/index">
+                    <a href="/Student/attendanceManage">
                         <i class="glyphicon glyphicon-blackboard"></i>
                         出勤管理
                     </a>
@@ -105,7 +111,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/index">
+                    <a href="/User/option">
                         <i class="glyphicon glyphicon-cog"></i>
                         通用设置
                     </a>
@@ -125,5 +131,8 @@
 
         </div>
 	</div>
+
+
 </body>
+
 </html>

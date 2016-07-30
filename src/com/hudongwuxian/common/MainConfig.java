@@ -30,7 +30,7 @@ public class MainConfig extends JFinalConfig {
 		//读取数据库配置文件
 		PropKit.use("config.properties");
 		//设置当前是否为开发模式
-		me.setDevMode(PropKit.getBoolean("devMode"));
+		me.setDevMode(false);
 		//设置默认上传文件保存路径 getFile等使用
 		me.setBaseUploadPath("/upload");
 		//设置上传最大限制尺寸
