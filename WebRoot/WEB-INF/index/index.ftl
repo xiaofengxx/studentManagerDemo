@@ -32,10 +32,10 @@
         <div class="item">
             <span class="title">快捷操作</span>
             <div class="clearfix">
-                <a class="oprater-div pull-left bggreen" href="/user/addUser" >添加用户 +</a>
-                <a class="oprater-div pull-left bgblue">添加学生信息 +</a>
-                <a class="oprater-div pull-left bgorange">添加考勤记录 +</a>
-                <a class="oprater-div pull-left bgred">添加用户组 +</a>
+                <div class="oprater-div pull-left bggreen">添加用户 +</div>
+                <div class="oprater-div pull-left bgblue">添加学生信息+</div>
+                <div class="oprater-div pull-left bgorange">添加考勤记录 +</div>
+                <div class="oprater-div pull-left bgred">添加用户组 +</div>
             </div>
         </div>
         <div class="item">
