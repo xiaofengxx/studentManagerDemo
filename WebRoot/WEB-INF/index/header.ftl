@@ -14,7 +14,8 @@
     <!-- Bootstrap Js -->
     <script src="/static/js/bootstrap.min.js"></script>
 
-
+    <script type="text/javascript" src="/static/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="/static/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
 
     <!-- Metis Menu Js -->
     <script src="/static/js/jquery.metisMenu.js"></script>

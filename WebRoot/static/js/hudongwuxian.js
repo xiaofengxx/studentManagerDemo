@@ -7,9 +7,19 @@
 $(function () {
     $('body').on('pjax:end', function () {
         //当pjax请求结束
-        //重新绑定事件
         //重新绘图
         draw();
+        //重新加载detetimepicker
+        $('.form_date').datetimepicker({
+            language: 'fr',
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0
+        });
     });
 
     $(document).pjax('a[target!=_blank]', '#hudongwuxian', {
