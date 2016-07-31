@@ -145,6 +145,7 @@ ul.nav li:hover {
     font-size: 16px;
     border-radius: 3px;
     position: relative;
+    display: block;
 }
 
 .oprater-div:hover {
@@ -239,4 +240,18 @@ td, th {
     height:2px;
     z-index:999999;
     width:100%;
+}
+.big-img-none{
+    width:200px;
+    height:200px;
+    background: #ECECEC;
+    border:1px solid #4b8045;
+    display: block;
+}
+#tables li.active a{
+    width:200px;
+    text-align: center;
+    font-size:14px;
+    color:white;
+    background: #00cb66;
 }

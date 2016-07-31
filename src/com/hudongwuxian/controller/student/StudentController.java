@@ -13,4 +13,7 @@ public class StudentController extends BaseController{
 	public void enrollStudent(){
 		render("enrollStudent.ftl");
 	}
+	public void attendanceManage(){
+		render("attendanceManage.ftl");
+	}
 }

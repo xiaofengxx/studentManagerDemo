@@ -69,7 +69,7 @@
             $("#fail").fadeIn(500);
         }); */
 		var req=$.ajax({type:"post",
-                url:"User/login",
+                url:"/user/login",
                 dataType:"json",
                 data:jsonObj,
                 success:function(data){
@@ -77,7 +77,7 @@
                         $("form").fadeOut(500);
                         $(".wrapper").addClass("form-success");
                         setTimeout(function () {
-                            location.href="index";
+                            location.href="/";
                         },1000);
                     }else{
                         $("#fail").text("账号或密码错误");

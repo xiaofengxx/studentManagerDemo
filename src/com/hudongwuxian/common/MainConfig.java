@@ -56,10 +56,10 @@ public class MainConfig extends JFinalConfig {
 	 */
 	@Override
 	public void configRoute(Routes me) {
-		me.add("/User",UserController.class);
+		me.add("/user",UserController.class);
 		me.add("/index",IndexController.class);
 		me.add("/",IndexController.class);
-		me.add("/Student",StudentController.class);
+		me.add("/student",StudentController.class);
 	}
 	/**
 	 * 配置JFinal插件

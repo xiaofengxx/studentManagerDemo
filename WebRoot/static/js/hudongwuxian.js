@@ -5,27 +5,21 @@
 //     index();
 // })
 $(function () {
-    $('.form_date').datetimepicker({
-        language: 'fr',
-        weekStart: 1,
-        todayBtn: 1,
-        todayHighlight: 1,
-        startView: 2,
-        minView: 2,
-        forceParse: 0
-    });
     $('body').on('pjax:end', function () {
         //当pjax请求结束
         //重新绑定事件
         //重新绘图
         draw();
     });
-    $(loadWraper("${url!}"));
+
     $(document).pjax('a[target!=_blank]', '#hudongwuxian', {
         fragment: '#hudongwuxian',
         timeout: 8000,
+        show: 'fade',
+        cache: true,
+        storage:true
     });
-    function draw(){
+    function draw() {
         $('#easypiechart-teal').easyPieChart({
             scaleColor: false,
             barColor: '#1ebfae'
@@ -46,6 +40,7 @@ $(function () {
             barColor: '#30a5ff'
         });
     }
+
     function addUser() {
         loadWraper("User/addUser");
     }
@@ -68,7 +63,7 @@ $(function () {
 
 //进一步封装
     function loadWraper(url) {
-
+        alert(url);
         if (url == null || url == "")
             return;
         loadPanel(url, "#hudongwuxian");
