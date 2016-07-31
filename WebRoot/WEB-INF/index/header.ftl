@@ -79,10 +79,10 @@
                     <span class="glyphicon glyphicon-menu-down pull-right icon word-white"></span>
                     <ul class="nav nav-second-level collapse" aria-expanded="false" style="">
                         <li>
-                            <a href="/User/addUser">添加用户</a>
+                            <a href="/user/userList">用户列表</a>
                         </li>
                         <li>
-                            <a href="/User/addUserGroup">添加用户组</a>
+                            <a href="/user/addUserGroup">添加用户组</a>
                         </li>
                     </ul>
                 </li>
@@ -99,7 +99,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/Student/attendanceManage">
+                    <a href="/student/attendanceManage">
                         <i class="glyphicon glyphicon-blackboard"></i>
                         出勤管理
                     </a>
@@ -111,13 +111,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/User/option">
+                    <a href="/user/option">
                         <i class="glyphicon glyphicon-cog"></i>
                         通用设置
                     </a>
                 </li>
                 <li>
-                    <a href="/Student/enrollStudent">
+                    <a href="/student/enrollStudent">
                         <i class="glyphicon glyphicon-pencil"></i>
                         报名学生
                     </a>

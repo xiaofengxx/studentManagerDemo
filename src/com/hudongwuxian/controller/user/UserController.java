@@ -16,12 +16,14 @@ public class UserController extends BaseController{
 	public void login(){
 		String account = getPara("account");
 		String password = getPara("password");
+		
 		String state = ERROR;
 		User user = User.Login(account,password);
 		if(user != null){
 			state=SUCCESE;
 			setSessionAttr("user",user);
 		}
+		
 		setAttr("state", state);
 		renderJson();
 	}
@@ -37,6 +39,9 @@ public class UserController extends BaseController{
 	}
 	public void option(){
 		render("option.ftl");
+	}
+	public void userList(){
+		render("userList.ftl");
 	}
 	public void addUserSubmit(){
 		String account = getPara("account","1");
