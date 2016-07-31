@@ -35,10 +35,7 @@ public class UserController extends BaseController{
 	public void addUserGroup(){
 		render("addUserGroup.ftl");
 	}
-<<<<<<< HEAD
-=======
-	
->>>>>>> refs/remotes/Userwu/master
+
 	public void addUserSubmit(){
 		String account = getPara("account","1");
 		String password = getPara("password");
