@@ -20,7 +20,7 @@ public class ChineseToPinyin {
         t3.setVCharType(HanyuPinyinVCharType.WITH_V);  
         String t4 = "";  
         int t0 = t1.length;  
-        try {  
+        try {
             for (int i = 0; i < t0; i++) {  
                 // 判断是否为汉字字符  
                 if (java.lang.Character.toString(t1[i]).matches(  
