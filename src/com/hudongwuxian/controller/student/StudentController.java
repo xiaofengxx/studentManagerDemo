@@ -9,11 +9,20 @@ public class StudentController extends BaseController{
 	public void rencent(){
 		render("");
 	}
+	public void index(){
+		render("studentList.ftl");
+	}
 	//报名学生
 	public void enrollStudent(){
 		render("enrollStudent.ftl");
 	}
 	public void attendanceManage(){
 		render("attendanceManage.ftl");
+	}
+	public void studentList(){
+		render("studentList.ftl");
+	}
+	public void updateStudent(){
+		render("updateStudent.ftl");
 	}
 }
