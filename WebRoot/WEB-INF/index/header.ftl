@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>导航</title>
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="/static/css/custom-styles.css">
 
     <link rel="stylesheet" href="/static/css/hudongwuxianstyle.css">
+
 
     <script type="text/javascript" src="/static/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/static/js/hudongwuxian.js" charset="UTF-8"></script>
@@ -14,7 +16,8 @@
     <!-- Bootstrap Js -->
     <script src="/static/js/bootstrap.min.js"></script>
 
-
+    <script type="text/javascript" src="/static/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="/static/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
 
     <!-- Metis Menu Js -->
     <script src="/static/js/jquery.metisMenu.js"></script>
@@ -82,12 +85,12 @@
                             <a href="/user/userList">用户列表</a>
                         </li>
                         <li>
-                            <a href="/user/addUserGroup">添加用户组</a>
+                            <a href="/user/userGroupManager">用户组列表</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/index">
+                    <a href="/student">
                         <i class="glyphicon glyphicon-education"></i>
                         学生管理
                     </a>

@@ -1,12 +1,12 @@
 <div id="hudongwuxian">
     <div class="clear-margin content">
-        <div class="item clearfix">
-            <span class="title">报名学生</span>
-            <button class="btn btn-success pull-right">添加报名信息</button>
-        </div>
         <div class="item">
+            <div class="clearfix  far-bottom">
+                <span class="title">报名学生</span>
+                <button class="btn btn-success pull-right">添加报名信息</button>
+            </div>
             <form>
-                <span class="clearfix">
+                <span>
                     <label for="all-search" class="sr-only">search</label>
                     <div class="input-group pull-left hdwx-input-sm">
                         <input type="text" class="form-control" id="all-search" placeholder="">
@@ -16,7 +16,7 @@
                             </button>
                         </span>
                     </div>
-                    <div class="form-group pull-right hdwx-input-sm">
+                    <div class="pull-right hdwx-input-sm">
                         <label for="dtp_input2" class="col-md-12 control-label sr-only">Date Picking</label>
                         <div class="input-group date form_date col-md-12" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
                             <input class="form-control" size="16" type="text" value=""disabled>
@@ -28,7 +28,7 @@
                 </span>
             </form>
 
-            <table class="table table-hover table-striped far-top">
+            <table class="table table-hover table-striped">
                 <thead>
                 <th>
                     用户组

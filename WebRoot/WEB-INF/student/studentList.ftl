@@ -1,10 +1,11 @@
 <div id="hudongwuxian">
     <div class="clear-margin content">
         <div class="item">
-            <div class="clearfix  far-bottom">
-                <span class="title">出勤记录表</span>
+            <div class="clearfix far-bottom">
+                <span class="title">学生列表</span>
             </div>
             <form class="clearfix">
+
                 <div class="input-group hdwx-input-sm pull-left">
                     <!-- <span class="input-group-btn">
                         <div class="btn-group">
@@ -31,34 +32,53 @@
 
                 </span>
                 </div>
-                <button class="btn btn-success pull-right">添加考勤记录</button>
+                <a class="pull-right btn btn-success" href="/student/updateStudent">添加学生信息</a>
             </form>
-
             <table class="table">
                 <thead>
-                    <th>班级</th>
-                    <th>姓名</th>
-                    <th>日期</th>
-                    <th>联系方式</th>
-                    <th>入学时间</th>
-                    <th>迟到/请假/旷课时间</th>
-                    <th>辅导老师</th>
-                    <th>出勤</th>
-                    <th>操作</th>
-                    <th>操作人</th>
+                    <th>
+                        姓名
+                    </th>
+                    <th>
+                        班级
+                    </th>
+                    <th>
+                        辅导老师
+                    </th>
+                    <th>
+                        学习科目
+                    </th>
+                    <th>
+                        联系方式
+                    </th>
+                    <th>
+                        入学时间
+                    </th>
+                    <th>
+                        学分
+                    </th>
+                    <th>
+                        成绩
+                    </th>
+                    <th>
+                        状态
+                    </th>
+                    <th>
+                        就业跟踪
+                    </th>
+                    <th>
+                        用户创建时间
+                    </th>
+                    <th>
+                        最后登录ip
+                    </th>
+                    <th>
+                        操作
+                    </th>
+                    <th>
+                        操作人
+                    </th>
                 </thead>
-                <tr>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>nini</td>
-                    <td>查看</td>
-                    <td>nini</td>
-                </tr>
             </table>
         </div>
     </div>

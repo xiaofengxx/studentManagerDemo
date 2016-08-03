@@ -1,9 +1,9 @@
 <div id="hudongwuxian">
     <div class="clear-margin content">
         <div class="item">
-            <span class="title">添加用户</span>
-        </div>
-        <div class="item">
+            <div class="clearfix far-bottom">
+                <span class="title">添加用户</span>
+            </div>
             <form class="hdwx-input-sm center-block">
                 <label for="account" class="sr-only" p>account</label>
                 <input class="form-control far-away-top" id="account" type="text" placeholder="用户名">

@@ -1,10 +1,11 @@
 <div id="hudongwuxian">
     <div class="clear-margin content">
-        <div class="item clearfix">
-            <span class="title">添加用户组</span>
-            <button class="btn btn-success pull-right">添加用户组</button>
-        </div>
+
         <div class="item">
+            <div class="clearfix far-bottom">
+                <span class="title">添加用户组</span>
+                <a class="btn btn-success pull-right" href="/user/updateUserGroup">添加用户组</a>
+            </div>
             <table class="table table-hover table-striped">
                 <thead>
                 <th>

@@ -1,12 +1,12 @@
 <div id="hudongwuxian">
     <div class="clear-margin content">
         <div class="item">
-            <span class="title">课程管理</span>
-            <a class="btn btn-lg btn-success pull-right">
-                添加课程
-            </a>
-        </div>
-        <div class="item">
+            <div class="clearfix far-bottom">
+                <span class="title">课程管理</span>
+                <a class="btn btn-lg btn-success pull-right">
+                    添加课程
+                </a>
+            </div>
             <table class="table">
                 <thead>
                     <th>

@@ -4,13 +4,18 @@
 }
 
 label {
-    font-weight: 500;
+    /*font-weight: 500;*/
 }
 
 body {
     background-color: #f1f1f1;
 }
-
+.far-left{
+    margin-left:20px;
+}
+.fine{
+    font-weight: 500;
+}
 #page-wrapper {
     min-height: 0;
 }
@@ -109,7 +114,9 @@ ul.nav li:hover {
 .hdwx-input-lg {
     width: 500px;
 }
-
+.hdwx-form-lg{
+    width:900px;
+}
 .hdwx-input-sm {
     width: 300px;
 }
@@ -131,10 +138,19 @@ ul.nav li:hover {
 
 .title {
     font-size: 32px;
-    border-bottom: 1px solid #e8e8e8;
     margin-left: 10px;
+    position:relative;
 }
-
+.title:before{
+    content:'';
+    display: inline-block;
+    width:5px;
+    height:30px;
+    position: absolute;
+    top:8px;
+    left:-7px;
+    background: #bebebe;
+}
 .oprater-div {
     width: 20%;
     height: 120px;
@@ -168,7 +184,12 @@ ul.nav li:hover {
 .bgblue {
     background: #0098cb;
 }
-
+.bg-fine-gray{
+    background: #f1f1f1;
+}
+.bgwhite{
+    background: white;
+}
 #page-wrapper {
     top: 0;
 }
@@ -179,6 +200,9 @@ ul.nav li:hover {
 
 .far-top {
     margin-top: 10px;
+}
+.far-bottom{
+    margin-bottom: 20px;
 }
 
 .far-away-top {
@@ -254,4 +278,20 @@ td, th {
     font-size:14px;
     color:white;
     background: #00cb66;
+}
+.form-item{
+    width:45%;
+    float:left;
+}
+.form-item-lg{
+    width:86%;
+    float:left;
+    margin-left:20px;
+}
+.common-line-height{
+    line-height: 34px;
+}
+.half{
+    width:49%;
+    float: left;
 }
